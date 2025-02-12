@@ -1,16 +1,21 @@
 <script setup lang="ts">
-import Headline from './components/typography/Headline.vue'
-import Paragraph from './components/typography/Paragraph.vue';
+import Partners from './components/modules/Partners.vue';
+import Services from './components/modules/Services.vue';
+import Stage from './components/modules/Stage.vue';
 </script>
 
 <template>
-  <div>
-    <Headline type="h1" text="Headline 1" />
-    <Headline type="h2" text="Headline 2" />
-    <Headline type="h3" text="Headline 3" />
-    <Headline type="h4" text="Headline 4" />
-    <Paragraph text="Paragraph" />
+  <div class="w-full">
+    <Services />
+    <Stage />
+    <Partners />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+</style>

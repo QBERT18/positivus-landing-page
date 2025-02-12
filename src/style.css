@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+    --color-pale-lime: #B9FF66;
+    --color-mirage: #191A23;
+    --color-aqua-haze: #F3F3F3;
+}
