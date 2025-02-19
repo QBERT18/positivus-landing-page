@@ -5,3 +5,14 @@
     --color-mirage: #191A23;
     --color-aqua-haze: #F3F3F3;
 }
+
+html {
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html,
+body {
+    width: 100%;
+}

@@ -1,10 +1,6 @@
 module.exports = {
   theme: {
-    extend: {
-      fontFamily: {
-        spaceGrotesk: ["Space Grotesk", "sans-serif"],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
